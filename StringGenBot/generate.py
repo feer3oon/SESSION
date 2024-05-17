@@ -53,7 +53,7 @@ buttons_ques = [
 
 gen_button = [
     [
-        InlineKeyboardButton(text="📥 ⍆ اضغط لبدا استخراج كود ⍅ 📥", callback_data="generate")
+        InlineKeyboardButton(text="••• اضغط لبدا استخراج كود •••", callback_data="generate")
     ]
 ]
 
@@ -176,7 +176,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = f"**</>  هذه هي جلسة {ty} الخاصة بك** \n\n`{string_session}` \n\n</>  **تم بواسطة فيثون إي :**@VETHON\n</>  يرجي عدم مشاركتها مع احد\n</>  ولا تنسى الانضمام @SOURCE_FEER3OON ♥"
+    text = f"**</>  هذه هي جلسة {ty} الخاصة بك** \n\n`{string_session}` \n\n</>  **تم بواسطة فيثون :**@VETHON\n</>  يرجي عدم مشاركتها مع احد\n</>  ولا تنسى الانضمام @FEER3OON ♥"
     try:
         if not is_bot:
             await client.send_message("me", text)
@@ -185,7 +185,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
     except KeyError:
         pass
     await client.disconnect()
-    await bot.send_message(msg.chat.id, " تم انشاء الجلسة بنجاح ✅ {} \nيرجى التحقق من رسائلك المحفوظة للحصول عليها !\n</>  **تم بواسطة فيثون إي** @VETHON".format("تـيـلـثـون" if telethon else "بـايـࢪوجـࢪام"))
+    await bot.send_message(msg.chat.id, " تم انشاء الجلسة بنجاح ✅ {} \nيرجى التحقق من رسائلك المحفوظة للحصول عليها !\n</>  **تم بواسطة فيثون ** @VETHON".format("تـيـلـثـون" if telethon else "بـايـࢪوجـࢪام"))
 
 
 async def cancelled(msg):
