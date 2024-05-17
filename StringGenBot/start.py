@@ -19,15 +19,15 @@ async def start(bot: Client, msg: Message):
 • ¦ بـايـروجـرام مـيوزك احـدث إصـدار 
 • ¦ تيرمـكـس للحسابات & تيرمـكـس للبوتات
 
-• ¦ بواسطـة : [𝗙َِ𝗘َِ𝗘َِ𝗥3َِ𝗢َِ𝗢َِ𝗡 ┇ فــ͡ـࢪعـ๋͜‏ـوُن](tg://user?id=6034835993) √""",
+• ¦ بواسطـة : [𓏺𝗠𝗥 . 𝗫](tg://user?id=6308685423) √""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="📥 ⍆ اضغط لبدا استخراج كود ⍅ 📥", callback_data="generate")
+                    InlineKeyboardButton(text=" ••• اضغط لبدا استخراج كود •••", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("ᠻꫀꫀ𝘳3ꪮꪮꪀ ‌ 𝚂𝙾𝚄𝚁𝙲𝙴 ♟️", url="https://t.me/VETHON"),
-                    InlineKeyboardButton("DEV ᠻꫀꫀ𝘳3ꪮꪮꪀ ‌", user_id=6034835993)
+                    InlineKeyboardButton("𓏺ꪔᖇ . ꪎ ‌ 𝚂𝙾𝚄𝚁𝙲𝙴 ♟️", url="https://t.me/VETHON"),
+                    InlineKeyboardButton("DEV 𓏺𝗠𝗥 . 𝗫 ‌", user_id=6308685423)
                 ]
             ]
         ),
